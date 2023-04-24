@@ -3,5 +3,11 @@
 ============= */
 
 #start_here{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". start_here .";
 
+    >div{
+    grid-area: start_here;
+    }
 }
