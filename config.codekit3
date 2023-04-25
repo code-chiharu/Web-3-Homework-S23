@@ -9,21 +9,21 @@
   ],
   "creatorBuild" : "34484",
   "files" : {
-    "\/assets HW\/facebook-f.svg" : {
+    "\/Assets\/facebook-f.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets HW\/facebook-f.svg",
+      "oAP" : "\/Assets\/facebook-f.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets HW\/figma imgs\/dog_birthday.png" : {
+    "\/Assets\/figma imgs\/dog_birthday.png" : {
       "ft" : 32768,
       "iS" : 13211,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/dog_birthday.png",
+      "oAP" : "\/Assets\/figma imgs\/dog_birthday.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -32,11 +32,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/gallery1.png" : {
+    "\/Assets\/figma imgs\/gallery1.png" : {
       "ft" : 32768,
       "iS" : 119798,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/gallery1.png",
+      "oAP" : "\/Assets\/figma imgs\/gallery1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -45,11 +45,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/gallery2.png" : {
+    "\/Assets\/figma imgs\/gallery2.png" : {
       "ft" : 32768,
       "iS" : 129714,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/gallery2.png",
+      "oAP" : "\/Assets\/figma imgs\/gallery2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -58,11 +58,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/gallery3.png" : {
+    "\/Assets\/figma imgs\/gallery3.png" : {
       "ft" : 32768,
       "iS" : 221948,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/gallery3.png",
+      "oAP" : "\/Assets\/figma imgs\/gallery3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -71,11 +71,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/hero1.png" : {
+    "\/Assets\/figma imgs\/hero1.png" : {
       "ft" : 32768,
       "iS" : 89500,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/hero1.png",
+      "oAP" : "\/Assets\/figma imgs\/hero1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -84,11 +84,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/logo Screenshot 2023-04-10 221719.png" : {
+    "\/Assets\/figma imgs\/logo Screenshot 2023-04-10 221719.png" : {
       "ft" : 32768,
       "iS" : 480923,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/logo Screenshot 2023-04-10 221719.png",
+      "oAP" : "\/Assets\/figma imgs\/logo Screenshot 2023-04-10 221719.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -97,11 +97,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/logo_transparent.png" : {
+    "\/Assets\/figma imgs\/logo_transparent.png" : {
       "ft" : 32768,
       "iS" : 450822,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/logo_transparent.png",
+      "oAP" : "\/Assets\/figma imgs\/logo_transparent.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -110,11 +110,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/logo2 Screenshot 2023-04-10 223637.png" : {
+    "\/Assets\/figma imgs\/logo2 Screenshot 2023-04-10 223637.png" : {
       "ft" : 32768,
       "iS" : 608847,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/logo2 Screenshot 2023-04-10 223637.png",
+      "oAP" : "\/Assets\/figma imgs\/logo2 Screenshot 2023-04-10 223637.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -123,11 +123,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/logo2_transparent.png" : {
+    "\/Assets\/figma imgs\/logo2_transparent.png" : {
       "ft" : 32768,
       "iS" : 495044,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/logo2_transparent.png",
+      "oAP" : "\/Assets\/figma imgs\/logo2_transparent.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -136,11 +136,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/news1.png" : {
+    "\/Assets\/figma imgs\/news1.png" : {
       "ft" : 32768,
       "iS" : 209000,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/news1.png",
+      "oAP" : "\/Assets\/figma imgs\/news1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -149,11 +149,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/news2.png" : {
+    "\/Assets\/figma imgs\/news2.png" : {
       "ft" : 32768,
       "iS" : 122990,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/news2.png",
+      "oAP" : "\/Assets\/figma imgs\/news2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -162,11 +162,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/news3.png" : {
+    "\/Assets\/figma imgs\/news3.png" : {
       "ft" : 32768,
       "iS" : 76464,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/news3.png",
+      "oAP" : "\/Assets\/figma imgs\/news3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -175,11 +175,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/news4.png" : {
+    "\/Assets\/figma imgs\/news4.png" : {
       "ft" : 32768,
       "iS" : 153972,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/news4.png",
+      "oAP" : "\/Assets\/figma imgs\/news4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -188,11 +188,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/news5.png" : {
+    "\/Assets\/figma imgs\/news5.png" : {
       "ft" : 32768,
       "iS" : 102334,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/news5.png",
+      "oAP" : "\/Assets\/figma imgs\/news5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -201,11 +201,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/pick_your_flavor.png" : {
+    "\/Assets\/figma imgs\/pick_your_flavor.png" : {
       "ft" : 32768,
       "iS" : 10529,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/pick_your_flavor.png",
+      "oAP" : "\/Assets\/figma imgs\/pick_your_flavor.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -214,194 +214,64 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/instagram-alt.svg" : {
+    "\/Assets\/instagram-alt.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets HW\/instagram-alt.svg",
+      "oAP" : "\/Assets\/instagram-alt.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets HW\/phone.svg" : {
+    "\/Assets\/phone.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets HW\/phone.svg",
+      "oAP" : "\/Assets\/phone.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets HW\/search-light.png" : {
+    "\/Assets\/search-light.png" : {
       "ft" : 32768,
       "iS" : 1051,
       "oA" : 0,
-      "oAP" : "\/assets HW\/search-light.png",
+      "oAP" : "\/Assets\/search-light.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/telegram-alt.svg" : {
+    "\/Assets\/telegram-alt.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets HW\/telegram-alt.svg",
+      "oAP" : "\/Assets\/telegram-alt.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets HW\/twitter.svg" : {
+    "\/Assets\/twitter.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets HW\/twitter.svg",
+      "oAP" : "\/Assets\/twitter.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets HW\/youtube.svg" : {
+    "\/Assets\/youtube.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets HW\/youtube.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/about-left.jpg" : {
-      "ft" : 16384,
-      "iS" : 240900,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/about-left.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/about.jpg" : {
-      "ft" : 16384,
-      "iS" : 252641,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/about.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/Andriod.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/Andriod.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/Apple.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/Apple.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/aws.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/aws.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/Google.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/Google.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/hero-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 1003073,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/hero-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 479600,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/In-class-S23.fig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/In-class-S23.fig",
-      "oF" : 0
-    },
-    "\/Assets\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/MS.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/MS.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/reddit.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/reddit.svg",
+      "oAP" : "\/Assets\/youtube.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
