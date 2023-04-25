@@ -19,11 +19,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets HW\/figma imgs\/dog birthday.png" : {
+    "\/assets HW\/figma imgs\/dog_birthday.png" : {
       "ft" : 32768,
       "iS" : 13211,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/dog birthday.png",
+      "oAP" : "\/assets HW\/figma imgs\/dog_birthday.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -97,11 +97,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/logo transparent.png" : {
+    "\/assets HW\/figma imgs\/logo_transparent.png" : {
       "ft" : 32768,
       "iS" : 450822,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/logo transparent.png",
+      "oAP" : "\/assets HW\/figma imgs\/logo_transparent.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -123,11 +123,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/logo2 transparent.png" : {
+    "\/assets HW\/figma imgs\/logo2_transparent.png" : {
       "ft" : 32768,
       "iS" : 495044,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/logo2 transparent.png",
+      "oAP" : "\/assets HW\/figma imgs\/logo2_transparent.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -201,11 +201,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets HW\/figma imgs\/pick your flavor.png" : {
+    "\/assets HW\/figma imgs\/pick_your_flavor.png" : {
       "ft" : 32768,
       "iS" : 10529,
       "oA" : 0,
-      "oAP" : "\/assets HW\/figma imgs\/pick your flavor.png",
+      "oAP" : "\/assets HW\/figma imgs\/pick_your_flavor.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -478,11 +478,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/global\/logo2 transparent.png" : {
+    "\/deploy\/img\/global\/logo2_transparent.png" : {
       "ft" : 32768,
       "iS" : 495044,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/global\/logo2 transparent.png",
+      "oAP" : "\/deploy\/img\/global\/logo2_transparent.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -622,11 +622,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/start here\/dog birthday.png" : {
+    "\/deploy\/img\/start_here\/dog_birthday.png" : {
       "ft" : 32768,
       "iS" : 13211,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/start here\/dog birthday.png",
+      "oAP" : "\/deploy\/img\/start_here\/dog_birthday.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -635,11 +635,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/start here\/pick your flavor.png" : {
+    "\/deploy\/img\/start_here\/pick_your_flavor.png" : {
       "ft" : 32768,
       "iS" : 10529,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/start here\/pick your flavor.png",
+      "oAP" : "\/deploy\/img\/start_here\/pick_your_flavor.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
