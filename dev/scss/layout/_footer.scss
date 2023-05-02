@@ -1,3 +1,50 @@
 /* =============
     Footer
 ============= */
+#footer{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer .";
+
+    >div{
+    grid-area: footer;
+
+    @include md{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "s1 s2"
+        "s1 s3";}
+
+    @include lg{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "s1 s2 s3";}
+
+    #s1{
+        @include md{
+            grid-area: s1;
+        }
+        @include xxl{
+            grid-area: s1;
+        }
+    }
+    #s2{
+        @include md{
+            grid-area: s2;
+        }
+        @include xxl{
+            grid-area: s2;
+        }
+    }
+    #s3{
+        @include md{
+            grid-area: s3;
+        }
+        @include xxl{
+            grid-area: s3;
+        }
+        }
+    }   
+}

@@ -9,5 +9,10 @@
 
     >div{
     grid-area: start_here;
-    }
+
+    @include md{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        }
+    }   
 }

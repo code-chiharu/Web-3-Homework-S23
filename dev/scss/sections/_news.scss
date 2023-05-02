@@ -2,5 +2,89 @@
     News
 ============= */
 #news{
-    
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". news .";
+
+    >div{
+        grid-area: news;
+
+        ul{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 24px;
+
+            @include md{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas: 
+                "n1 n1 n2 n2"
+                "n3 n3 n4 n4"
+                ". n5 n5 .";
+                // grid-template-columns: repeat(2, 1fr);
+                // grid-template-columns: 50% 50%;
+                // grid-template-columns: 50% auto;
+            }
+
+            @include lg{
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas: 
+                "n1 n1 n2 n2 n3 n3"
+                ". n4 n4 n5 n5 .";
+            }
+
+            li{
+                list-style: none;
+            }
+
+            #n1{
+                @include md{
+                    grid-area: n1;
+                }
+
+                @include lg{
+                    grid-area: n1;
+                }
+            }
+            #n2{
+                @include md{
+                    grid-area: n2;
+                }
+
+                @include lg{
+                    grid-area: n2;
+                }
+            }
+            #n3{
+                @include md{
+                    grid-area: n3;
+                }
+
+                @include lg{
+                    grid-area: n3;
+                }
+            }
+            #n4{
+                @include md{
+                    grid-area: n4;
+                }
+
+                @include lg{
+                    grid-area: n4;
+                }
+            }
+            #n5{
+                @include md{
+                    grid-area: n5;
+                }
+
+                @include lg{
+                    grid-area: n5;
+                }
+            }
+            
+        }
+    }
 }

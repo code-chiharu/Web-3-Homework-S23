@@ -2,5 +2,40 @@
     Gallery
 ============= */
 #gallery{
-    
+    display: grid;
+    grid-template-columns: 0px auto 0px;
+    grid-template-areas: ". gallery .";
+
+    >div{
+        grid-area: gallery;
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include xxl{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: 
+            "g1 g2"
+            "g1 g3";
+        }
+
+        #g1{
+            @include xxl{
+                grid-area: g1;
+            }
+        }
+        #g2{
+            @include xxl{
+                grid-area: g2;
+            }
+        }
+        #g3{
+            @include xxl{
+                grid-area: g3;
+            }
+        }
+    }
 }
