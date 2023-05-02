@@ -11,7 +11,12 @@
 
     @include md{
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% auto;
+    }
+
+    @include lg{
+        display: grid;
+        grid-template-columns: 50% auto;
     }
     } 
 }

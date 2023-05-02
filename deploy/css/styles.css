@@ -400,7 +400,7 @@ textarea {
     grid-area: s1;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   #footer > div #s1 {
     grid-area: s1;
   }
@@ -410,7 +410,7 @@ textarea {
     grid-area: s2;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   #footer > div #s2 {
     grid-area: s2;
   }
@@ -420,7 +420,7 @@ textarea {
     grid-area: s3;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   #footer > div #s3 {
     grid-area: s3;
   }
@@ -452,7 +452,13 @@ textarea {
 @media (min-width: 768px) {
   #hero > div {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #hero > div {
+    display: grid;
+    grid-template-columns: 50% auto;
   }
 }
 
