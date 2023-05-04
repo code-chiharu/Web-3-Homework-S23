@@ -327,15 +327,6 @@ template {
 /* =============
     Base
 ============= */
-.header-footer-grid {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header-footer .";
-}
-.header-footer-grid > div {
-  grid-area: header-footer;
-}
-
 .large-images {
   width: 100%;
 }
@@ -373,55 +364,40 @@ textarea {
 /* =============
     Footer
 ============= */
-#footer {
+footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
-#footer > div {
+footer > div {
   grid-area: footer;
 }
 @media (min-width: 768px) {
-  #footer > div {
+  footer > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "s1 s2" "s1 s3";
   }
 }
 @media (min-width: 1024px) {
-  #footer > div {
+  footer > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "s1 s2 s3";
   }
 }
 @media (min-width: 768px) {
-  #footer > div #s1 {
-    grid-area: s1;
-  }
-}
-@media (min-width: 1024px) {
-  #footer > div #s1 {
+  footer > div #s1 {
     grid-area: s1;
   }
 }
 @media (min-width: 768px) {
-  #footer > div #s2 {
-    grid-area: s2;
-  }
-}
-@media (min-width: 1024px) {
-  #footer > div #s2 {
+  footer > div #s2 {
     grid-area: s2;
   }
 }
 @media (min-width: 768px) {
-  #footer > div #s3 {
-    grid-area: s3;
-  }
-}
-@media (min-width: 1024px) {
-  #footer > div #s3 {
+  footer > div #s3 {
     grid-area: s3;
   }
 }

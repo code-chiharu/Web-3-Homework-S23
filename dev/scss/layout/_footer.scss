@@ -1,7 +1,7 @@
 /* =============
     Footer
 ============= */
-#footer{
+footer{
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
@@ -26,25 +26,19 @@
         @include md{
             grid-area: s1;
         }
-        @include lg{
-            grid-area: s1;
-        }
+
     }
     #s2{
         @include md{
             grid-area: s2;
         }
-        @include lg{
-            grid-area: s2;
-        }
+
     }
     #s3{
         @include md{
             grid-area: s3;
         }
-        @include lg{
-            grid-area: s3;
-        }
+
         }
     }   
 }
