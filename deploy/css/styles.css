@@ -404,6 +404,12 @@ footer {
 footer > div {
   grid-area: footer;
 }
+footer > div h1 {
+  color: white;
+}
+footer > div h2, footer > div h3 {
+  color: var(--mintdark);
+}
 footer > div .footer-s1-s1a {
   display: flex;
   gap: 16px;
@@ -450,16 +456,20 @@ footer > div #s1 {
     grid-area: s1;
   }
 }
+footer > div #s2 form button {
+  background-color: var(--mintnormal);
+  color: white;
+}
 @media (min-width: 768px) {
-  footer > div #s2 {
+  footer > div {
     grid-area: s2;
   }
 }
-footer > div #s3 ul {
+footer #s3 ul {
   display: flex;
 }
 @media (min-width: 768px) {
-  footer > div #s3 {
+  footer #s3 {
     grid-area: s3;
   }
 }

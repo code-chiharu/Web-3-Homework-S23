@@ -9,6 +9,12 @@ footer{
 
     >div{
     grid-area: footer;
+        h1{
+            color: white;
+        }
+        h2,h3{
+            color: var(--mintdark);
+        }
 
     .footer-s1-s1a{
         display: flex;
@@ -61,6 +67,13 @@ footer{
 
     }
     #s2{
+        form{
+            button{
+                background-color: var(--mintnormal);
+                color: white;
+            }
+            }
+        }
         @include md{
             grid-area: s2;
         }
@@ -79,4 +92,3 @@ footer{
 
         }
     }   
-}
