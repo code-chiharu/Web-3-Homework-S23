@@ -5,6 +5,8 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". search .";
+    align-items: center;
+    justify-content: center;
 
     >div{
     grid-area: search;

@@ -331,6 +331,10 @@ template {
   width: 100%;
 }
 
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -365,6 +369,7 @@ textarea {
     Footer
 ============= */
 footer {
+  background-color: #836262;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
@@ -409,6 +414,8 @@ footer > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
+  align-items: center;
+  justify-content: center;
 }
 #search > div {
   grid-area: search;
@@ -472,6 +479,7 @@ footer > div {
   #gallery > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "g1 g2";
   }
 }
 @media (min-width: 1440px) {
@@ -481,17 +489,17 @@ footer > div {
     grid-template-areas: "g1 g2" "g1 g3";
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   #gallery > div #g1 {
     grid-area: g1;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   #gallery > div #g2 {
     grid-area: g2;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   #gallery > div #g3 {
     grid-area: g3;
   }
