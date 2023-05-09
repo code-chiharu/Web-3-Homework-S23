@@ -22,7 +22,8 @@
         }
 
     .start_here-s1{
-        background-color: #836262;
+        background-color: var(--chocolatebrown);
+        color: white;
         padding: 16px;
         display: flex;
 
@@ -34,14 +35,16 @@
             form{
                 button{
                     border: none;
-                    background-color: #91CFCE; 
+                    background-color: var(--mintdark); 
+                    color: white;
                     margin-left: auto;
                 }
             }
             }
     }  
     .start_here-s2{
-        background-color: #836262;
+        background-color: var(--chocolatebrown);
+        color: white;
         padding: 16px;
         display: flex;
 
@@ -53,7 +56,8 @@
             form{
                 button{
                     border: none;
-                    background-color: #91CFCE; 
+                    background-color: var(--mintdark); 
+                    color: white;
                     margin-left: auto;
                 }
             }

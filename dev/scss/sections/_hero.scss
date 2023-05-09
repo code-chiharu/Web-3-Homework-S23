@@ -20,7 +20,8 @@
     }
     
     .hero-s1{
-        background-color: #91CFCE;
+        background-color: var(--mintdark);
+        color: white; 
         padding: 16px;
         display: flex;
         
@@ -31,12 +32,14 @@
         button{
            border: none;
            background-color: transparent;
+           color: white;
            margin-left: auto; 
         }
     }
 
     .hero-s2{
-        background-color: #C2E6E6;
+        background-color: var(--mintnormal);
+        color: white;
         padding: 16px;
         display: flex;
 
@@ -46,6 +49,7 @@
         button{
             border: none;
             background-color: transparent; 
+            color: white;
             margin-left: auto;
          }
     }

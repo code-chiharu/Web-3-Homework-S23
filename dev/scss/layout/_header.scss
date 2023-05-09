@@ -2,8 +2,9 @@
     Header
 ============= */
 header{
-    background-color: #836262;
+    background-color: var(--chocolatebrown);
     padding: 16px 0;
+    color: var(--mintlight);
 
     @include xxl{
         padding: 24px 0;
