@@ -404,6 +404,30 @@ footer {
 footer > div {
   grid-area: footer;
 }
+footer > div .footer-s1-s1a {
+  display: flex;
+  gap: 16px;
+}
+footer > div .footer-s1-s1b {
+  display: flex;
+  gap: 16px;
+}
+footer > div .footer-s1-s2a {
+  display: flex;
+  gap: 16px;
+}
+footer > div .footer-s1-s2b {
+  display: flex;
+  gap: 16px;
+}
+footer > div .footer-s1-s3a {
+  display: flex;
+  gap: 16px;
+}
+footer > div .footer-s1-s3b {
+  display: flex;
+  gap: 16px;
+}
 @media (min-width: 768px) {
   footer > div {
     display: grid;
@@ -418,6 +442,9 @@ footer > div {
     grid-template-areas: "s1 s2 s3";
   }
 }
+footer > div #s1 {
+  gap: 16px;
+}
 @media (min-width: 768px) {
   footer > div #s1 {
     grid-area: s1;
@@ -427,6 +454,9 @@ footer > div {
   footer > div #s2 {
     grid-area: s2;
   }
+}
+footer > div #s3 ul {
+  display: flex;
 }
 @media (min-width: 768px) {
   footer > div #s3 {

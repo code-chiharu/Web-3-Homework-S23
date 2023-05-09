@@ -10,6 +10,36 @@ footer{
     >div{
     grid-area: footer;
 
+    .footer-s1-s1a{
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer-s1-s1b{
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer-s1-s2a{
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer-s1-s2b{
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer-s1-s3a{
+        display: flex;
+        gap: 16px;
+    }
+
+    .footer-s1-s3b{
+        display: flex;
+        gap: 16px;
+    }
+
     @include md{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -24,6 +54,7 @@ footer{
         "s1 s2 s3";}
 
     #s1{
+        gap: 16px;
         @include md{
             grid-area: s1;
         }
@@ -36,6 +67,12 @@ footer{
 
     }
     #s3{
+        ul{
+            display: flex;
+            li{
+
+            }
+        }
         @include md{
             grid-area: s3;
         }
