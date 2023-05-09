@@ -366,6 +366,7 @@ textarea {
     Header
 ============= */
 header {
+  background-color: #836262;
   padding: 16px 0;
 }
 @media (min-width: 1440px) {
@@ -441,7 +442,7 @@ footer > div {
 ============= */
 #hero {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 0px auto 0px;
   grid-template-areas: ". hero .";
 }
 #hero > div {
@@ -458,6 +459,22 @@ footer > div {
     display: grid;
     grid-template-columns: 50% auto;
   }
+}
+#hero > div .hero-s1 {
+  background-color: #91CFCE;
+  padding: 16px;
+}
+#hero > div .hero-s1 button {
+  border: none;
+  background-color: transparent;
+}
+#hero > div .hero-s2 {
+  background-color: #C2E6E6;
+  padding: 16px;
+}
+#hero > div .hero-s2 button {
+  border: none;
+  background-color: transparent;
 }
 
 /* ------ Hero ------*/

@@ -3,7 +3,7 @@
 ============= */
 #hero{
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 0px auto 0px;
     grid-template-areas: ". hero .";
 
     >div{
@@ -17,9 +17,29 @@
     @include lg{
         display: grid;
         grid-template-columns: 50% auto;
+
     }
-    } 
-}
+    
+    .hero-s1{
+        background-color: #91CFCE;
+        padding: 16px;
+        button{
+           border: none;
+           background-color: transparent; 
+        }
+    }
+
+    .hero-s2{
+        background-color: #C2E6E6;
+        padding: 16px;
+        button{
+            border: none;
+            background-color: transparent; 
+         }
+    }
+    }
+ } 
+
 
 
 
