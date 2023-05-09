@@ -493,17 +493,54 @@ footer > div {
 ============= */
 #start_here {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 0px auto 0px;
   grid-template-areas: ". start_here .";
+}
+@media (min-width: 768px) {
+  #start_here {
+    grid-template-columns: 0px auto 0px;
+  }
 }
 #start_here > div {
   grid-area: start_here;
+  gap: 16px;
+  margin: 16px 0;
 }
 @media (min-width: 768px) {
   #start_here > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+#start_here > div .start_here-s1 {
+  background-color: #836262;
+  padding: 16px;
+  display: flex;
+}
+@media (min-width: 768px) {
+  #start_here > div .start_here-s1 {
+    margin: 0 16px;
+  }
+}
+#start_here > div .start_here-s1 section form button {
+  border: none;
+  background-color: #91CFCE;
+  margin-left: auto;
+}
+#start_here > div .start_here-s2 {
+  background-color: #836262;
+  padding: 16px;
+  display: flex;
+}
+@media (min-width: 768px) {
+  #start_here > div .start_here-s2 {
+    margin: 0 16px;
+  }
+}
+#start_here > div .start_here-s2 section form button {
+  border: none;
+  background-color: #91CFCE;
+  margin-left: auto;
 }
 
 /* =============
