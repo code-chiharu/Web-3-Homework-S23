@@ -602,82 +602,90 @@ footer > div {
 ============= */
 #news {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 0px auto 0px;
   grid-template-areas: ". news .";
 }
 #news > div {
   grid-area: news;
 }
-#news > div ul {
+#news > div section {
+  margin-left: 16px;
+}
+#news > div section ul {
   margin: 0;
   padding: 0;
   display: grid;
   gap: 24px;
 }
 @media (min-width: 768px) {
-  #news > div ul {
+  #news > div section ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
   }
 }
 @media (min-width: 1024px) {
-  #news > div ul {
+  #news > div section ul {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
   }
 }
-#news > div ul li {
+#news > div section ul li {
   list-style: none;
+  background-color: var(--mintlight);
+}
+#news > div section ul li form button {
+  background-color: var(--mintdark);
+  color: white;
 }
 @media (min-width: 768px) {
-  #news > div ul #n1 {
+  #news > div section ul #n1 {
     grid-area: n1;
   }
 }
 @media (min-width: 1024px) {
-  #news > div ul #n1 {
+  #news > div section ul #n1 {
     grid-area: n1;
   }
 }
 @media (min-width: 768px) {
-  #news > div ul #n2 {
+  #news > div section ul #n2 {
     grid-area: n2;
   }
 }
 @media (min-width: 1024px) {
-  #news > div ul #n2 {
+  #news > div section ul #n2 {
     grid-area: n2;
   }
 }
 @media (min-width: 768px) {
-  #news > div ul #n3 {
+  #news > div section ul #n3 {
     grid-area: n3;
   }
 }
 @media (min-width: 1024px) {
-  #news > div ul #n3 {
+  #news > div section ul #n3 {
     grid-area: n3;
   }
 }
 @media (min-width: 768px) {
-  #news > div ul #n4 {
+  #news > div section ul #n4 {
     grid-area: n4;
   }
 }
 @media (min-width: 1024px) {
-  #news > div ul #n4 {
+  #news > div section ul #n4 {
     grid-area: n4;
   }
 }
 @media (min-width: 768px) {
-  #news > div ul #n5 {
+  #news > div section ul #n5 {
     grid-area: n5;
   }
 }
 @media (min-width: 1024px) {
-  #news > div ul #n5 {
+  #news > div section ul #n5 {
     grid-area: n5;
   }
 }

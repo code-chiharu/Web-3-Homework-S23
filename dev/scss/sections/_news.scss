@@ -3,12 +3,14 @@
 ============= */
 #news{
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 0px auto 0px;
     grid-template-areas: ". news .";
 
     >div{
         grid-area: news;
 
+        section{
+            margin-left: 16px;
         ul{
             margin: 0;
             padding: 0;
@@ -37,6 +39,15 @@
 
             li{
                 list-style: none;
+                background-color: var(--mintlight);
+
+                form{
+                    button{
+                        background-color: var(--mintdark);
+                        color: white;
+                    }
+                }
+                
             }
 
             #n1{
@@ -87,4 +98,5 @@
             
         }
     }
+}
 }
