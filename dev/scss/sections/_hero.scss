@@ -17,24 +17,36 @@
     @include lg{
         display: grid;
         grid-template-columns: 50% auto;
-
     }
     
     .hero-s1{
         background-color: #91CFCE;
         padding: 16px;
+        display: flex;
+        
+        section{
+
+        }
+
         button{
            border: none;
-           background-color: transparent; 
+           background-color: transparent;
+           margin-left: auto; 
         }
     }
 
     .hero-s2{
         background-color: #C2E6E6;
         padding: 16px;
+        display: flex;
+
+        section{
+
+        }
         button{
             border: none;
             background-color: transparent; 
+            margin-left: auto;
          }
     }
     }
