@@ -1,3 +1,18 @@
 /* =============
     Header
 ============= */
+header{
+    padding: 16px 0;
+
+    @include xxl{
+        padding: 24px 0;
+    }
+    div{
+        display:flex;
+
+        section{
+            margin-left: auto;
+        }
+
+    }
+}

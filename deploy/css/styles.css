@@ -365,6 +365,21 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  padding: 16px 0;
+}
+@media (min-width: 1440px) {
+  header {
+    padding: 24px 0;
+  }
+}
+header div {
+  display: flex;
+}
+header div section {
+  margin-left: auto;
+}
+
 /* =============
     Footer
 ============= */
