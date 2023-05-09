@@ -13,11 +13,11 @@
 
     >div{
     grid-area: start_here;
+    display: grid;
     gap: 16px;
     margin: 16px 0;
 
     @include md{
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         }
 

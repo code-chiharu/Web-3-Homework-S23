@@ -17,7 +17,7 @@
         }
 
         @include xxl{
-            display: grid;
+           
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: 
             "g1 g2"
@@ -35,7 +35,9 @@
             }
         }
         #g3{
-            @include md{
+            display: none;
+            @include xxl{
+                display: block;
                 grid-area: g3;
             }
         }
