@@ -568,6 +568,28 @@ footer #s3 ul {
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". hero .";
 }
+#hero #hero-img {
+  background-image: url("../img/heroes/hero1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+@media (min-width: 768px) {
+  #hero #hero-img {
+    height: 50vh;
+  }
+}
+@media (min-width: 1200px) {
+  #hero #hero-img {
+    background-position: center 80%;
+    height: 65vh;
+  }
+}
+@media (min-width: 1440px) {
+  #hero #hero-img {
+    height: 70vh;
+  }
+}
 #hero > div {
   grid-area: hero;
 }
