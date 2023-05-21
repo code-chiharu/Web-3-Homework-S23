@@ -11,11 +11,9 @@
         padding: 24px 0;
     }
 
-    @includexxl{
+    @include xxl{
         grid-template-columns: auto 1200px auto;
     }
-
-
 
     >div{
     grid-area: search;
@@ -26,9 +24,18 @@
         input{
             border: none;
             border-bottom: 1px solid var(--mintdark);
-            width: 100px;
+            width: 100%;
             border-radius: 0;
             margin-right: 8px;
+            font-size: rem-calc(14);
+            color: var(--inputgray);
+
+            @include md{
+                font-size: rem-calc(30);
+                font-weight: 300;
+            }
+
+
         }
         button{
             border: none;

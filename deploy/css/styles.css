@@ -17,6 +17,7 @@ html {
   --mintnormal: #C2E6E6;
   --mintlight: #E0FBFC;
   --chocolatebrown: #836262;
+  --inputgray: #293241;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -378,6 +379,19 @@ textarea {
   -webkit-appearance: none;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--inputgray);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--inputgray);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--inputgray);
+}
+
 /* =============
     Navigation
 ============= */
@@ -500,7 +514,7 @@ footer #s3 ul {
     padding: 24px 0;
   }
 }
-@includexxl {
+@media (min-width: 1440px) {
   #search {
     grid-template-columns: auto 1200px auto;
   }
@@ -514,9 +528,17 @@ footer #s3 ul {
 #search > div form input {
   border: none;
   border-bottom: 1px solid var(--mintdark);
-  width: 100px;
+  width: 100%;
   border-radius: 0;
   margin-right: 8px;
+  font-size: 0.875rem;
+  color: var(--inputgray);
+}
+@media (min-width: 768px) {
+  #search > div form input {
+    font-size: 1.875rem;
+    font-weight: 300;
+  }
 }
 #search > div form button {
   border: none;
