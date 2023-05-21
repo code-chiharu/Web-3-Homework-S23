@@ -540,11 +540,24 @@ footer #s3 ul {
     font-weight: 300;
   }
 }
+@media (min-width: 1200px) {
+  #search > div form input {
+    font-size: 2.1875rem;
+  }
+}
 #search > div form button {
   border: none;
-  background-color: var(red);
+  background-color: var(--mintdark);
+  color: var(--white);
   border-radius: 5px;
   padding: 10px 16px;
+  cursor: pointer;
+  transition: 0.25s;
+  font-size: remcalc(30);
+}
+#search > div form button:hover {
+  background-color: var(--mintlight);
+  color: var(--inputgray);
 }
 
 /* =============

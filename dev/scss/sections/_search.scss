@@ -35,13 +35,26 @@
                 font-weight: 300;
             }
 
+            @include xl{
+                font-size: rem-calc(35);
+            }
 
         }
         button{
             border: none;
-            background-color: var(red);
+            background-color: var(--mintdark);
+            color: var(--white);
             border-radius: 5px;
             padding: 10px 16px;
+            cursor: pointer;
+            transition: 0.25s;
+            font-size: remcalc(30);
+
+            &:hover{
+                background-color: var(--mintlight);
+                color: var(--inputgray)
+
+            }
         }
     }
     }
