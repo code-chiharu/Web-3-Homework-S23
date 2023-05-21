@@ -5,10 +5,37 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". search .";
-    align-items: center;
-    justify-content: center;
+    padding: 16px 0;
+
+    @include md{
+        padding: 24px 0;
+    }
+
+    @includexxl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+
 
     >div{
     grid-area: search;
+
+    form{
+        display: flex;
+
+        input{
+            border: none;
+            border-bottom: 1px solid var(--mintdark);
+            width: 100px;
+            border-radius: 0;
+            margin-right: 8px;
+        }
+        button{
+            border: none;
+            background-color: var(red);
+            border-radius: 5px;
+            padding: 10px 16px;
+        }
+    }
     }
 }
