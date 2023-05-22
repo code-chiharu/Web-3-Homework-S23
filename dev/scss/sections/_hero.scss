@@ -47,6 +47,18 @@
         display: flex;
         
         section{
+            h1{
+                font-size: rem-calc(20);
+                margin-bottom: 8px;
+
+                @include xl{
+                    font-size: rem-calc(25);
+                }
+            }
+            p{
+                font-weight: 600;
+                font-size: rem-calc(14);
+            }
 
         }
 
@@ -55,6 +67,17 @@
            background-color: transparent;
            color: white;
            margin-left: auto; 
+
+           a:link, a:visited{
+                display: flex;
+                color: white;
+                transition: 0.25s;
+
+                &:hover, &:active{
+                    color: var(--inputgray);
+
+                }
+           }
         }
     }
 
@@ -65,6 +88,13 @@
         display: flex;
 
         section{
+            h3{
+                font-weight: 400;
+                font-size: rem-calc(16);
+                span{
+                    font-weight: 700;
+                }
+            }
 
         }
         button{
