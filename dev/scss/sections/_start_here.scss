@@ -36,6 +36,10 @@
                 font-size: rem-calc(22);
                 font-weight: 400;
                 padding-bottom: 8px;
+
+                @include md{
+                    font-size: rem-calc(30);
+                }
             }
             form{
                 button{
@@ -93,6 +97,10 @@
                 font-size: rem-calc(22);
                 font-weight: 400;
                 padding-bottom: 8px;
+
+                @include md{
+                    font-size: rem-calc(30);
+                }
             }
             form{
                 button{
