@@ -32,15 +32,51 @@
         }
 
         section{
+            h1{
+                font-size: rem-calc(22);
+                font-weight: 400;
+                padding-bottom: 8px;
+            }
             form{
                 button{
                     border: none;
                     background-color: var(--mintdark); 
                     color: white;
                     margin-left: auto;
+                    padding: 8px;
                 }
             }
             }
+
+        aside{
+            margin-left: auto;
+            width: 50%;
+            
+            @include md{
+                width: 45%;
+            }
+            @include lg{
+                width: 30%;
+            }
+
+            @include xxl{
+                width: 20%;
+            }
+
+            div{
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                padding-bottom: 100%;
+                border-radius: 100%;
+                border: 3px solid white;
+                overflow: hidden;
+            }
+
+            #sub-hero-left{
+                background-image: url("../img/start_here/dog_birthday.png");
+            }
+        }
     }  
     .start_here-s2{
         background-color: var(--chocolatebrown);
@@ -53,15 +89,51 @@
         }
 
         section{
+            h1{
+                font-size: rem-calc(22);
+                font-weight: 400;
+                padding-bottom: 8px;
+            }
             form{
                 button{
                     border: none;
                     background-color: var(--mintdark); 
                     color: white;
                     margin-left: auto;
+                    padding: 8px;
                 }
             }
+        }
+        aside{
+            margin-left: auto;
+            width: 30%;
+
+            @include md{
+                width: 30%;
             }
+
+            @include lg{
+                width: 28%;
+            }
+
+            @include xxl{
+                width: 20%;
+            }
+
+            div{
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                padding-bottom: 100%;
+                border-radius: 100%;
+                border: 3px solid white;
+                overflow: hidden;
+            }
+
+            #sub-hero-right{
+                background-image: url("../img/start_here/pick_your_flavor.png");
+            }
+        }
     }  
     }
 }   
