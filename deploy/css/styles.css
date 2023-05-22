@@ -826,37 +826,51 @@ footer #s3 ul {
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". gallery .";
 }
-#gallery > div {
+#gallery ul {
   grid-area: gallery;
+  display: grid;
+  grid-template-columns: 50vh 75vh;
 }
 @media (min-width: 768px) {
-  #gallery > div {
+  #gallery ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "g1 g2";
   }
 }
 @media (min-width: 1440px) {
-  #gallery > div {
+  #gallery ul {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "g1 g2" "g1 g3";
   }
 }
+#gallery ul li {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+#gallery ul #g1 {
+  background-image: url("../img/gallery/gallery1.png");
+}
 @media (min-width: 768px) {
-  #gallery > div #g1 {
+  #gallery ul #g1 {
     grid-area: g1;
   }
 }
+#gallery ul #g2 {
+  background-image: url("../img/gallery/gallery2.png");
+}
 @media (min-width: 768px) {
-  #gallery > div #g2 {
+  #gallery ul #g2 {
     grid-area: g2;
   }
 }
-#gallery > div #g3 {
+#gallery ul #g3 {
+  background-image: url("../img/gallery/gallery3.png");
   display: none;
 }
 @media (min-width: 1440px) {
-  #gallery > div #g3 {
+  #gallery ul #g3 {
     display: block;
     grid-area: g3;
   }

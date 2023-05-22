@@ -6,8 +6,11 @@
     grid-template-columns: 0px auto 0px;
     grid-template-areas: ". gallery .";
 
-    >div{
+    ul{
         grid-area: gallery;
+
+        display: grid;
+        grid-template-columns: 50vh 75vh;
 
         @include md{
             display: grid;
@@ -24,17 +27,26 @@
             "g1 g3";
         }
 
+        li{
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+        }
+
         #g1{
+            background-image: url("../img/gallery/gallery1.png");
             @include md{
                 grid-area: g1;
             }
         }
         #g2{
+            background-image: url("../img/gallery/gallery2.png");
             @include md{
                 grid-area: g2;
             }
         }
         #g3{
+            background-image: url("../img/gallery/gallery3.png");
             display: none;
             @include xxl{
                 display: block;
