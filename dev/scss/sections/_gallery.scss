@@ -10,27 +10,29 @@
         grid-area: gallery;
 
         display: grid;
-        grid-template-columns: 50vh 75vh;
+        grid-template-rows: 50vh 75vh;
 
         @include md{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: 
             "g1 g2";
+            grid-template-rows: 50vh;
         }
 
         @include xxl{
-           
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: 
             "g1 g2"
             "g1 g3";
+            grid-template-rows: 40vh 40vh;
+
         }
 
         li{
             background-size: cover;
             background-position: center;
-            height: 500px;
+
         }
 
         #g1{
@@ -49,7 +51,7 @@
             background-image: url("../img/gallery/gallery3.png");
             display: none;
             @include xxl{
-                display: block;
+                display: list-item;
                 grid-area: g3;
             }
         }
