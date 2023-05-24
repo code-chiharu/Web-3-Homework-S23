@@ -867,6 +867,7 @@ footer #s3 ul {
   #gallery ul #g2 {
     grid-area: g2;
     background-position: center;
+    offset: 5%;
   }
 }
 #gallery ul #g3 {
@@ -906,6 +907,7 @@ footer #s3 ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
+    padding: 16px;
   }
 }
 @media (min-width: 1024px) {
@@ -935,6 +937,36 @@ footer #s3 ul {
   padding-left: 16px;
   padding-right: 16px;
   font-size: 0.875rem;
+}
+#news > div ul #n1-img1 {
+  background-image: url("../img/news/news1.png");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#news > div ul #n2-img1 {
+  background-image: url("../img/news/news2.png");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#news > div ul #n3-img1 {
+  background-image: url("../img/news/news3.png");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#news > div ul #n4-img1 {
+  background-image: url("../img/news/news4.png");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#news > div ul #n5-img1 {
+  background-image: url("../img/news/news5.png");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
 }
 @media (min-width: 768px) {
   #news > div ul #n1 {

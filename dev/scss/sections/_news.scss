@@ -28,6 +28,7 @@
                 "n1 n1 n2 n2"
                 "n3 n3 n4 n4"
                 ". n5 n5 .";
+                padding: 16px;
                 // grid-template-columns: repeat(2, 1fr);
                 // grid-template-columns: 50% 50%;
                 // grid-template-columns: 50% auto;
@@ -69,7 +70,44 @@
                     font-size: rem-calc(14);
                 }
                 
+                
             }
+            
+            #n1-img1{
+                background-image: url("../img/news/news1.png" );
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+                }
+
+            #n2-img1{
+                background-image: url("../img/news/news2.png" );
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+                }
+
+            
+            #n3-img1{
+                background-image: url("../img/news/news3.png" );
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+                }
+            
+            #n4-img1{
+                background-image: url("../img/news/news4.png" );
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+                }
+            
+            #n5-img1{
+                background-image: url("../img/news/news5.png" );
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+                }
 
             #n1{
                 @include md{
