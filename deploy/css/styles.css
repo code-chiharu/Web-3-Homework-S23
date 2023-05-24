@@ -866,8 +866,7 @@ footer #s3 ul {
 @media (min-width: 768px) {
   #gallery ul #g2 {
     grid-area: g2;
-    background-position: center;
-    offset: 5%;
+    background-position: 80% 20%;
   }
 }
 #gallery ul #g3 {
