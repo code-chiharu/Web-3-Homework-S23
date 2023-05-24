@@ -13,13 +13,39 @@ header{
     div{
         display:flex;
 
+        #header-img{
+            background-image: url("../img/global/logo2_transparent.png" );
+            height: 70px;
+            background-size: contain;
+            background-position: center;
+        }
+
         img{
-            width: 200px;
+            width: 150px;
         }
 
         section{
             margin-left: auto;
+
+            h1{
+                font-size: rem-calc(0);
+
+            @include md{
+                font-size: rem-calc(30);
+                font-weight: 400;
+            }
+
+            }
+            h2{
+                font-size: rem-calc(0);
+
+            @include md{
+                font-size: rem-calc(12);
+                font-weight: 400;
+            }
+            }
+
+            }
         }
 
     }
-}
