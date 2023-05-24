@@ -10,6 +10,12 @@ footer{
     >div{
     grid-area: footer;
 
+    @include lg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "s1 s2 s3";
+    }
+
         section{
             padding: 4px;
         }
@@ -44,11 +50,37 @@ footer{
         border-bottom: 1px solid white;
     }
 
+    #s1{
+        @include lg{
+        grid-area: s1;
+        }
+    }
+
     #s2{
-        padding-left: 8px;
+        @include lg{
+        grid-area: s2;
+        }
+
+        @include md{
+            padding-left: 8px;
+        }
+        h1{
+            padding-bottom: 8px;
+        }
         form{
+            
             input{
                 border: none;
+                padding: 8px;
+
+                @include sm{
+                    width: 95%;
+                    margin-bottom: 8px;
+                }
+
+                @include md{
+                    width: 70%;
+                }
             }
             button{
                 border: none;
@@ -57,7 +89,23 @@ footer{
         }
 
     #s3{
-        padding-left: 8px;
+        @include lg{
+        grid-area: s3;
+        }
+
+        @include md{
+            padding-left: 8px;
+        }
+        h1{
+            padding-bottom: 8px;
+        }
+
+        ul{
+            li{
+                padding-right: 8px;
+            }
+        }
+        
     }
 
     .footer-s1-s1a{

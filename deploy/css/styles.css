@@ -445,6 +445,13 @@ footer {
 footer > div {
   grid-area: footer;
 }
+@media (min-width: 1024px) {
+  footer > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "s1 s2 s3";
+  }
+}
 footer > div section {
   padding: 4px;
 }
@@ -473,17 +480,57 @@ footer > div #s1-s1 {
 footer > div #s1-s2 {
   border-bottom: 1px solid white;
 }
-footer > div #s2 {
-  padding-left: 8px;
+@media (min-width: 1024px) {
+  footer > div #s1 {
+    grid-area: s1;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div #s2 {
+    grid-area: s2;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #s2 {
+    padding-left: 8px;
+  }
+}
+footer > div #s2 h1 {
+  padding-bottom: 8px;
 }
 footer > div #s2 form input {
   border: none;
+  padding: 8px;
+}
+@media (min-width: 320px) {
+  footer > div #s2 form input {
+    width: 95%;
+    margin-bottom: 8px;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #s2 form input {
+    width: 70%;
+  }
 }
 footer > div #s2 form button {
   border: none;
 }
-footer > div #s3 {
-  padding-left: 8px;
+@media (min-width: 1024px) {
+  footer > div #s3 {
+    grid-area: s3;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #s3 {
+    padding-left: 8px;
+  }
+}
+footer > div #s3 h1 {
+  padding-bottom: 8px;
+}
+footer > div #s3 ul li {
+  padding-right: 8px;
 }
 footer > div .footer-s1-s1a {
   display: flex;
@@ -751,7 +798,7 @@ footer #s3 ul {
 }
 @media (min-width: 768px) {
   #start_here > div .start_here-s1 section h1 {
-    font-size: 1.875rem;
+    font-size: 1.5625rem;
   }
 }
 #start_here > div .start_here-s1 section form button {
@@ -767,7 +814,7 @@ footer #s3 ul {
 }
 @media (min-width: 768px) {
   #start_here > div .start_here-s1 aside {
-    width: 45%;
+    width: 50%;
   }
 }
 @media (min-width: 1024px) {
@@ -810,7 +857,7 @@ footer #s3 ul {
 }
 @media (min-width: 768px) {
   #start_here > div .start_here-s2 section h1 {
-    font-size: 1.875rem;
+    font-size: 1.5625rem;
   }
 }
 #start_here > div .start_here-s2 section form button {
