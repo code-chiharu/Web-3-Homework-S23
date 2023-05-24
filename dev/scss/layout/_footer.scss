@@ -7,7 +7,7 @@ footer{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
 
-    >div{
+    div{
     grid-area: footer;
 
     @include lg{
@@ -18,6 +18,25 @@ footer{
 
         section{
             padding: 4px;
+
+            #s1{
+                @include lg{
+                    grid-area: s1;
+                    }
+            }
+
+            #s2{
+                @include lg{
+                    grid-area: s2;
+                    }
+            }
+
+            #s3{
+                @include lg{
+                    grid-area: s3;
+                    }
+            }
+            
         }
 
         h1{
@@ -50,16 +69,7 @@ footer{
         border-bottom: 1px solid white;
     }
 
-    #s1{
-        @include lg{
-        grid-area: s1;
-        }
-    }
-
     #s2{
-        @include lg{
-        grid-area: s2;
-        }
 
         @include md{
             padding-left: 8px;

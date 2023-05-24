@@ -442,148 +442,153 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
-footer > div {
+footer div {
   grid-area: footer;
 }
 @media (min-width: 1024px) {
-  footer > div {
+  footer div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "s1 s2 s3";
   }
 }
-footer > div section {
+footer div section {
   padding: 4px;
 }
-footer > div h1 {
+@media (min-width: 1024px) {
+  footer div section #s1 {
+    grid-area: s1;
+  }
+}
+@media (min-width: 1024px) {
+  footer div section #s2 {
+    grid-area: s2;
+  }
+}
+@media (min-width: 1024px) {
+  footer div section #s3 {
+    grid-area: s3;
+  }
+}
+footer div h1 {
   color: white;
   font-size: 1.25rem;
   font-weight: 600;
   padding-top: 16px;
 }
-footer > div h2 {
+footer div h2 {
   font-size: 1rem;
   font-weight: 600;
   margin-top: 16px;
 }
-footer > div h3 {
+footer div h3 {
   font-size: 0.75rem;
   font-weight: 600;
   margin-top: 16px;
 }
-footer > div h2, footer > div h3 {
+footer div h2, footer div h3 {
   color: var(--mintdark);
 }
-footer > div #s1-s1 {
+footer div #s1-s1 {
   border-bottom: 1px solid white;
 }
-footer > div #s1-s2 {
+footer div #s1-s2 {
   border-bottom: 1px solid white;
-}
-@media (min-width: 1024px) {
-  footer > div #s1 {
-    grid-area: s1;
-  }
-}
-@media (min-width: 1024px) {
-  footer > div #s2 {
-    grid-area: s2;
-  }
 }
 @media (min-width: 768px) {
-  footer > div #s2 {
+  footer div #s2 {
     padding-left: 8px;
   }
 }
-footer > div #s2 h1 {
+footer div #s2 h1 {
   padding-bottom: 8px;
 }
-footer > div #s2 form input {
+footer div #s2 form input {
   border: none;
   padding: 8px;
 }
 @media (min-width: 320px) {
-  footer > div #s2 form input {
+  footer div #s2 form input {
     width: 95%;
     margin-bottom: 8px;
   }
 }
 @media (min-width: 768px) {
-  footer > div #s2 form input {
+  footer div #s2 form input {
     width: 70%;
   }
 }
-footer > div #s2 form button {
+footer div #s2 form button {
   border: none;
 }
 @media (min-width: 1024px) {
-  footer > div #s3 {
+  footer div #s3 {
     grid-area: s3;
   }
 }
 @media (min-width: 768px) {
-  footer > div #s3 {
+  footer div #s3 {
     padding-left: 8px;
   }
 }
-footer > div #s3 h1 {
+footer div #s3 h1 {
   padding-bottom: 8px;
 }
-footer > div #s3 ul li {
+footer div #s3 ul li {
   padding-right: 8px;
 }
-footer > div .footer-s1-s1a {
+footer div .footer-s1-s1a {
   display: flex;
   gap: 16px;
 }
-footer > div .footer-s1-s1b {
+footer div .footer-s1-s1b {
   display: flex;
   gap: 16px;
 }
-footer > div .footer-s1-s2a {
+footer div .footer-s1-s2a {
   display: flex;
   gap: 16px;
 }
-footer > div .footer-s1-s2b {
+footer div .footer-s1-s2b {
   display: flex;
   gap: 16px;
 }
-footer > div .footer-s1-s3a {
+footer div .footer-s1-s3a {
   display: flex;
   gap: 16px;
 }
-footer > div .footer-s1-s3b {
+footer div .footer-s1-s3b {
   display: flex;
   gap: 16px;
 }
 @media (min-width: 768px) {
-  footer > div {
+  footer div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "s1 s2" "s1 s3";
   }
 }
 @media (min-width: 1024px) {
-  footer > div {
+  footer div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "s1 s2 s3";
   }
 }
-footer > div #s1 {
+footer div #s1 {
   gap: 16px;
 }
 @media (min-width: 768px) {
-  footer > div #s1 {
+  footer div #s1 {
     grid-area: s1;
   }
 }
-footer > div #s2 form button {
+footer div #s2 form button {
   background-color: var(--mintnormal);
   color: white;
 }
 @media (min-width: 768px) {
-  footer > div {
+  footer div {
     grid-area: s2;
   }
 }
