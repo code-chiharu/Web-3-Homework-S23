@@ -445,11 +445,45 @@ footer {
 footer > div {
   grid-area: footer;
 }
+footer > div section {
+  padding: 4px;
+}
 footer > div h1 {
   color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-top: 16px;
+}
+footer > div h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 16px;
+}
+footer > div h3 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 16px;
 }
 footer > div h2, footer > div h3 {
   color: var(--mintdark);
+}
+footer > div #s1-s1 {
+  border-bottom: 1px solid white;
+}
+footer > div #s1-s2 {
+  border-bottom: 1px solid white;
+}
+footer > div #s2 {
+  padding-left: 8px;
+}
+footer > div #s2 form input {
+  border: none;
+}
+footer > div #s2 form button {
+  border: none;
+}
+footer > div #s3 {
+  padding-left: 8px;
 }
 footer > div .footer-s1-s1a {
   display: flex;

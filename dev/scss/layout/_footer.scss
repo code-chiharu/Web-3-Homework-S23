@@ -9,12 +9,56 @@ footer{
 
     >div{
     grid-area: footer;
+
+        section{
+            padding: 4px;
+        }
+
         h1{
             color: white;
+            font-size: rem-calc(20);
+            font-weight: 600;
+            padding-top: 16px;
         }
+
+        h2{
+            font-size: rem-calc(16);
+            font-weight: 600;
+            margin-top: 16px;
+        }
+
+        h3{
+            font-size: rem-calc(12);
+            font-weight: 600;
+            margin-top: 16px;
+        }
+
         h2,h3{
             color: var(--mintdark);
         }
+
+    #s1-s1{
+        border-bottom: 1px solid white;
+    }
+    #s1-s2{
+        border-bottom: 1px solid white;
+    }
+
+    #s2{
+        padding-left: 8px;
+        form{
+            input{
+                border: none;
+            }
+            button{
+                border: none;
+            }
+        }
+        }
+
+    #s3{
+        padding-left: 8px;
+    }
 
     .footer-s1-s1a{
         display: flex;
