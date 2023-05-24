@@ -19,6 +19,7 @@
             padding: 0;
             display: grid;
             gap: 24px;
+            padding-bottom: 24px;
 
             @include md{
                 display: grid;
@@ -50,18 +51,22 @@
                         background-color: var(--mintdark);
                         color: white;
                         margin: 16px;
+                        border: none;
+                        padding: 8px;
     
                     }
                 }
 
                 h2{
                     font-size: rem-calc(22);
-                    font-weight: 400;
+                    font-weight: 700;
                     padding: 16px;
                 }
 
                 p{
-                    padding: 16px;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    font-size: rem-calc(14);
                 }
                 
             }
