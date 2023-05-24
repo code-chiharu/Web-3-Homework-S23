@@ -5,12 +5,13 @@
     display: grid;
     grid-template-columns: 0px auto 0px;
     grid-template-areas: ". news .";
+    
 
     >div{
         grid-area: news;
 
         section{
-            margin-left: 16px;
+            margin: 16px;
         }
         
         ul{
@@ -44,10 +45,23 @@
                 background-color: var(--mintlight);
 
                 form{
+
                     button{
                         background-color: var(--mintdark);
                         color: white;
+                        margin: 16px;
+    
                     }
+                }
+
+                h2{
+                    font-size: rem-calc(22);
+                    font-weight: 400;
+                    padding: 16px;
+                }
+
+                p{
+                    padding: 16px;
                 }
                 
             }

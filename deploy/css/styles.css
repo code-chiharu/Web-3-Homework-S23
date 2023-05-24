@@ -825,6 +825,7 @@ footer #s3 ul {
   display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". gallery .";
+  padding-bottom: 16px;
 }
 #gallery ul {
   grid-area: gallery;
@@ -844,6 +845,7 @@ footer #s3 ul {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "g1 g2" "g1 g3";
     grid-template-rows: 40vh 40vh;
+    grid-template-rows: repeat(2, 40vh);
   }
 }
 #gallery ul li {
@@ -864,6 +866,7 @@ footer #s3 ul {
 @media (min-width: 768px) {
   #gallery ul #g2 {
     grid-area: g2;
+    background-position: center;
   }
 }
 #gallery ul #g3 {
@@ -889,7 +892,7 @@ footer #s3 ul {
   grid-area: news;
 }
 #news > div section {
-  margin-left: 16px;
+  margin: 16px;
 }
 #news > div ul {
   margin: 0;
@@ -918,6 +921,15 @@ footer #s3 ul {
 #news > div ul li form button {
   background-color: var(--mintdark);
   color: white;
+  margin: 16px;
+}
+#news > div ul li h2 {
+  font-size: 1.375rem;
+  font-weight: 400;
+  padding: 16px;
+}
+#news > div ul li p {
+  padding: 16px;
 }
 @media (min-width: 768px) {
   #news > div ul #n1 {

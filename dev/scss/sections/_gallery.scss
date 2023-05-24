@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: 0px auto 0px;
     grid-template-areas: ". gallery .";
+    padding-bottom: 16px;
 
     ul{
         grid-area: gallery;
@@ -26,7 +27,7 @@
             "g1 g2"
             "g1 g3";
             grid-template-rows: 40vh 40vh;
-
+            grid-template-rows: repeat(2,40vh);
         }
 
         li{
@@ -45,6 +46,7 @@
             background-image: url("../img/gallery/gallery2.png");
             @include md{
                 grid-area: g2;
+                background-position: center;
             }
         }
         #g3{
