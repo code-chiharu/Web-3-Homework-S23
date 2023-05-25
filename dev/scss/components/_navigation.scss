@@ -4,3 +4,44 @@
 a{
     text-decoration: none;
 }
+
+.show-menu{
+    display: block !important;
+}
+
+nav{
+    display: none;
+
+    ul{
+        // border: 1px solid red;
+
+        // @include lg{
+        //     display: block;
+        // }
+
+        li{
+            text-align: right;
+            a:link, a:visited{
+
+                display: inline-block;
+                color: var(--white);
+                padding: 16px 0 16px;
+                font-weight: 500;
+
+                // padding: 24px 36px;
+                // border: 1px solid var(--mintnormal);
+                // color: var(--mintdark);
+                // border-radius: 6px;
+                // transition: 0.25s;
+                // font-family: 'roboto', sans-serif;
+
+                // &:hover, &:active{
+                //     background-color: var(--mintnormal);
+                //     color: var(--white);
+
+                // }
+
+            }
+        }
+    }
+}
