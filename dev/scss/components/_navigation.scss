@@ -16,34 +16,50 @@ html{
 nav{
     display: none;
 
+    @include md{
+        display: block;
+    }
     ul{
         // border: 1px solid red;
 
         // @include lg{
         //     display: block;
         // }
+        @include md{
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
 
         li{
             text-align: right;
-            a:link, a:visited{
 
+            @include md{
+                margin-left: 16px;
+            }
+
+            a:link, a:visited{
+                font-family: 'roboto', sans-serif;
                 display: inline-block;
                 color: var(--white);
                 padding: 16px 0 16px;
                 font-weight: 500;
 
-                // padding: 24px 36px;
-                // border: 1px solid var(--mintnormal);
-                // color: var(--mintdark);
-                // border-radius: 6px;
-                // transition: 0.25s;
-                // font-family: 'roboto', sans-serif;
+                @include md{
+                    padding: 24px 14px;
+                    border: 1px solid var(--mintnormal);
+                    color: var(--mintdark);
+                    border-radius: 6px;
+                    transition: 0.25s;
+                }  
 
-                // &:hover, &:active{
-                //     background-color: var(--mintnormal);
-                //     color: var(--white);
-
-                // }
+                &:hover, &:active{
+                    @include md{
+                        background-color: var(--mintnormal);
+                        color: var(--white);
+                    }
+                    
+                }
 
             }
         }

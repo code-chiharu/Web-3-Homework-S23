@@ -426,14 +426,47 @@ html {
 nav {
   display: none;
 }
+@media (min-width: 768px) {
+  nav {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
 nav ul li {
   text-align: right;
 }
+@media (min-width: 768px) {
+  nav ul li {
+    margin-left: 16px;
+  }
+}
 nav ul li a:link, nav ul li a:visited {
+  font-family: "roboto", sans-serif;
   display: inline-block;
   color: var(--white);
   padding: 16px 0 16px;
   font-weight: 500;
+}
+@media (min-width: 768px) {
+  nav ul li a:link, nav ul li a:visited {
+    padding: 24px 14px;
+    border: 1px solid var(--mintnormal);
+    color: var(--mintdark);
+    border-radius: 6px;
+    transition: 0.25s;
+  }
+}
+@media (min-width: 768px) {
+  nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+    background-color: var(--mintnormal);
+    color: var(--white);
+  }
 }
 
 /* =============
@@ -451,16 +484,35 @@ header {
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
+@media (min-width: 768px) {
+  header {
+    grid-template-columns: 15% auto 50%;
+    grid-template-areas: "logo text nav";
+  }
+}
+@media (min-width: 1440px) {
+  header {
+    grid-template-columns: 10% auto 50%;
+  }
+}
 header #logo {
   grid-area: logo;
   display: flex;
   align-items: center;
+}
+header #text {
+  grid-area: text;
 }
 header #burger-container {
   grid-area: burger;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media (min-width: 768px) {
+  header #burger-container {
+    display: none;
+  }
 }
 header #burger-container button {
   border: none;
@@ -485,7 +537,7 @@ header section h1 {
 }
 @media (min-width: 768px) {
   header section h1 {
-    font-size: 1.875rem;
+    font-size: 1.5625rem;
     font-weight: 400;
   }
 }
@@ -731,6 +783,7 @@ footer #s3 ul {
     Hero
 ============= */
 #hero {
+  scroll-margin-top: 10000px;
   display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". hero .";
