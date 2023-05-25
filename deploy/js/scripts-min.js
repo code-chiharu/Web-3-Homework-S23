@@ -3,7 +3,7 @@ let mainMenu = document.querySelector("#main-menu");
 
 let canSeeMenu = false;
 
-burgerBtrn.addEventListener("click", () => {
+burgerBtn.addEventListener("click", () => {
     console.log(canSeeMenu);
 
     if(!canSeeMenu){

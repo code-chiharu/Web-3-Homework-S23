@@ -415,6 +415,10 @@ a {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .show-menu {
   display: block !important;
 }
@@ -827,6 +831,7 @@ footer #s3 ul {
     Start_here
 ============= */
 #start_here {
+  scroll-margin-top: 90px;
   display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". start_here .";
@@ -970,6 +975,7 @@ footer #s3 ul {
     Gallery
 ============= */
 #gallery {
+  scroll-margin-top: 90px;
   display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". gallery .";
@@ -1032,6 +1038,7 @@ footer #s3 ul {
     News
 ============= */
 #news {
+  scroll-margin-top: 90px;
   display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". news .";

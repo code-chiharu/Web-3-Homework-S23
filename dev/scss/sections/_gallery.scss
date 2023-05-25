@@ -2,6 +2,9 @@
     Gallery
 ============= */
 #gallery{
+
+    scroll-margin-top: 90px;
+
     display: grid;
     grid-template-columns: 0px auto 0px;
     grid-template-areas: ". gallery .";
