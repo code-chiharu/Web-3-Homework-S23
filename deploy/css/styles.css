@@ -431,6 +431,9 @@ nav {
     display: block;
   }
 }
+nav ul {
+  border: 10px solid red;
+}
 @media (min-width: 768px) {
   nav ul {
     display: flex;
