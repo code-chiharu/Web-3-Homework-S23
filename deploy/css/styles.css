@@ -477,6 +477,7 @@ nav ul li a:link, nav ul li a:visited {
 ============= */
 header {
   background-color: var(--chocolatebrown);
+  background-color: #000;
   color: var(--mintlight);
   display: grid;
   grid-template-columns: 50% auto;
